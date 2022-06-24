@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
 html{
     /* prevents padding from adding extra width or height */
     box-sizing: border-box;
@@ -5,5 +7,11 @@ html{
 
 body{
     margin: 0;
-    min-height: 100vh;
+    height: 100vh;
+    font-family: 'Bree Serif', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37,37,37);
 }
+
